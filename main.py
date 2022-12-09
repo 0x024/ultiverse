@@ -331,7 +331,7 @@ def play_go(sessions_date,sessions_count,sessions_result,sessions_goal):
         time.sleep(2)
         driver.execute_script("window.scrollBy(0,100000)")
 
-        time.sleep(2)
+        time.sleep(3)
 
 
         driver.find_element(By.XPATH, paly1).click()
